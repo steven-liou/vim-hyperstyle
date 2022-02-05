@@ -119,8 +119,8 @@ properties = [
     ("flex-shrink", ["fshrink", "flshrink", "fleshrink"], "_", None),
     ("flex-direction", ["fdirection", "fldirection", "fledirection"], None, None),
     ("flex-wrap", ["fwrap", "flwrap", "flewrap"], None, None),
-    ("align-items", ["aitems", "alitems"], None, ["flex-start", "flex-end", "center", "baseline", "stretch", "inherit"]),
-    ("justify-content", ["jcontent", "jucontent", "juscontent", "justcontent"], None, ["flex-start", "flex-end", "center", "space-around", "space-between", "inherit"]),
+    ("align-items", ["aitems", "alitems"], None, ["flex-start", "flex-end", "center", "baseline", "stretch", "inherit", "start", "end"]),
+    ("justify-content", ["jcontent", "jucontent", "juscontent", "justcontent"], None, ["start", "end", "flex-start", "flex-end", "center", "space-around", "space-between", "inherit"]),
     ("order", [], "_", None),
 
     ("page-break-after", ["pbafter"], None, ["always", "auto", "avoid", "left", "right", "inherit"]),
@@ -135,6 +135,20 @@ properties = [
     ("direction", [], None, ["ltr", "rtl", "inherit"]),
 
     ("list-style", ["lstyle"], None, ["none", "square", "disc", "inside", "outside", "inherit", "initial", "unset", "decimal", "georgian"]),
+
+    {"grid-template", ["gt"], None, None},
+    {"grid-template-columns", ["gtc", "gtcs"], None, None},
+    {"grid-template-rows", ["gtr",  "gtrs"], None, None},
+    {"grid-template-areas", ["gta",  "gtas"], None, None},
+    {"grid-column-gap", ["gcg"], "px", None},
+    {"grid-row-gap", ["grg"], "px", None},
+    {"column-gap", ["cg"], "px", None},
+    {"row-gap", ["rg"], "px", None},
+    {"grid-gap", ["gg"], "px", None},
+    {"justify-items", ["ji"], None, ["start", "end", "center", "stretch"]},
+    {"align-content", ["ac"], None, ["start", "end", "center", "stretch"]},
+
+
 ]
 
 """
@@ -160,13 +174,14 @@ statements = [
     ("display", "table", ["dtable", "table"]),
     ("display", "table-cell", ["dtcell","cell","tablecell","table-cell"]),
     ("display", "table-row", ["dtrow","row","tablerow","table-row"]),
+    ("display", "flex", ["dflex", "flex"]),
+    ("display", "grid", ["dgrid", "grid"]),
+    ("display", "none", ["dnone"]),
 
     ("float", "left", ["fleft", "flleft", "floleft"]),
     ("float", "right", ["fright", "flright", "floright"]),
     ("float", "none", ["fnone", "flnone", "flonone"]),
 
-    ("display", "none", ["dnone"]),
-    ("display", "flex", ["dflex", "flex"]),
 
     ("font-weight", "normal", ["fwnormal"]),
     ("font-weight", "bold", ["fwbold", "bold"]),
