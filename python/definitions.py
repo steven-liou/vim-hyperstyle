@@ -178,12 +178,12 @@ statements = [
     ("display", "grid", ["dgrid", "grid"]),
     ("display", "none", ["dnone"]),
 
-    ("align-content", "start", ["acs"]),
-    ("align-content", "end", ["ace"]),
-    ("align-content", "center", ["acc"]),
-    ("justify-items", "start", ["jis"]),
-    ("justify-items", "end", ["jie"]),
-    ("justify-items", "center", ["jic"]),
+    ("align-content", "start", ["acstart"]),
+    ("align-content", "end", ["acend"]),
+    ("align-content", "center", ["accenter"]),
+    ("justify-items", "start", ["jistart"]),
+    ("justify-items", "end", ["jiend"]),
+    ("justify-items", "center", ["jicenter"]),
 
     ("float", "left", ["fleft", "flleft", "floleft"]),
     ("float", "right", ["fright", "flright", "floright"]),
@@ -295,8 +295,10 @@ statements = [
 
     ("flex", "auto", ["flauto"]),
 
-    ("align-items", "flex-start", ["aistart"]),
-    ("align-items", "flex-end", ["aiend"]),
+    ("align-items", "start", ["aistart"]),
+    ("align-items", "end", ["aiend"]),
+    ("align-items", "flex-start", ["aiflexstart"]),
+    ("align-items", "flex-end", ["aiflexend"]),
     ("align-items", "center", ["aicenter"]),
     ("align-items", "stretch", ["aistretch"]),
 
