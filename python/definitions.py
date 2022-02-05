@@ -46,7 +46,7 @@ properties = [
     ("padding-top", ["ptop","padtop"], "px", None),
     ("padding-bottom", ["pbottom","padbottom"], "px", None),
 
-    ("z-index", [], "_", None),
+    ("z-index", ["zi"], "_", None),
 
     ("display", [], None, ["none", "block", "inline", "inline-block", "table", "table-cell", "table-row"]),
     ("text-align", ["talign"], None, ["left", "right", "justify", "center", "inherit"]),
@@ -102,7 +102,7 @@ properties = [
     ("background-position", ["bgposition", "backposition", "bposition"], None, ["center", "top", "left", "middle", "bottom", "right"]),
     ("background-repeat", ["bgrepeat", "backrepeat", "brepeat"], None, ["repeat-x", "repeat-y", "no-repeat"]),
 
-    ("border-radius", ["bradius", "boradius"], "px", None),
+    ("border-radius", ["br", "bradius", "boradius"], "px", None),
     ("border-color", ["bcolor", "bocolor", "borcolor"], "px", None),
     ("border-collapse", ["bcollapse", "borcollapse", "collapse"], None, ["collapse","auto","inherit"]),
 
@@ -274,9 +274,9 @@ statements = [
     ("text-decoration", "underline", ["tdunderline", "underline"]),
     ("text-decoration", "none", ["tdnone"]),
 
-    ("box-sizing", "border-box", ["bsbox"]),
-    ("box-sizing", "padding-box", ["bspadding"]),
-    ("box-sizing", "content-box", ["bscontent"]),
+    ("box-sizing", "border-box", ["bsbox", "bsbb"]),
+    ("box-sizing", "padding-box", ["bspadding", "bspb"]),
+    ("box-sizing", "content-box", ["bscontent",  "bscb"]),
 
     ("margin", "auto", ["mauto"]),
     ("margin-left", "auto", ["mlauto"]),
