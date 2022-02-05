@@ -313,8 +313,14 @@ statements = [
     ("flex-direction", "column-reverse", ["fdcreverse"]),
 
     ("justify-content", "center", ["jccenter"]),
-    ("justify-content", "flex-start", ["jcstart"]),
-    ("justify-content", "flex-end", ["jcend"]),
+    ("justify-content", "flex-start", ["jcfs"]),
+    ("justify-content", "flex-end", ["jcfe"]),
+    ("justify-content", "start", ["jcs"]),
+    ("justify-content", "end", ["jce"]),
+    ("justify-content", "stretch", ["jcstretch"]),
+    ("justify-content", "space-around", ["jcsa"]),
+    ("justify-content", "space-between", ["jcsb"]),
+    ("justify-content", "space-evenly", ["jcse"]),
 
     ("direction", "ltr", ["ltr","dirltr"]),
     ("direction", "rtl", ["rtl","dirrtl"]),
