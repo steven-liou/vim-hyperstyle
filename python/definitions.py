@@ -178,6 +178,13 @@ statements = [
     ("display", "grid", ["dgrid", "grid"]),
     ("display", "none", ["dnone"]),
 
+    ("align-content", "start", ["acs"]),
+    ("align-content", "end", ["ace"]),
+    ("align-content", "center", ["acc"]),
+    ("justify-items", "start", ["jis"]),
+    ("justify-items", "end", ["jie"]),
+    ("justify-items", "center", ["jic"]),
+
     ("float", "left", ["fleft", "flleft", "floleft"]),
     ("float", "right", ["fright", "flright", "floright"]),
     ("float", "none", ["fnone", "flnone", "flonone"]),
