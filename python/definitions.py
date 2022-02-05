@@ -300,7 +300,7 @@ statements = [
     ("align-items", "flex-start", ["aifs"]),
     ("align-items", "flex-end", ["aife"]),
     ("align-items", "center", ["aicenter"]),
-    ("align-items", "stretch", ["aistretch"]),
+    ("align-items", "stretch", ["aistretch", "aix"]),
 
     ("text-overflow", "ellipsis", ["elip", "ellipsis", "toellipsis"]),
 
@@ -317,7 +317,7 @@ statements = [
     ("justify-content", "flex-end", ["jcfe"]),
     ("justify-content", "start", ["jcs"]),
     ("justify-content", "end", ["jce"]),
-    ("justify-content", "stretch", ["jcstretch",  "jcsx"]),
+    ("justify-content", "stretch", ["jcstretch",  "jcx"]),
     ("justify-content", "space-around", ["jcsa"]),
     ("justify-content", "space-between", ["jcsb"]),
     ("justify-content", "space-evenly", ["jcse"]),
