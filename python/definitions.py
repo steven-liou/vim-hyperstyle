@@ -317,7 +317,7 @@ statements = [
     ("justify-content", "flex-end", ["jcfe"]),
     ("justify-content", "start", ["jcs"]),
     ("justify-content", "end", ["jce"]),
-    ("justify-content", "stretch", ["jcstretch"]),
+    ("justify-content", "stretch", ["jcstretch",  "jcsx"]),
     ("justify-content", "space-around", ["jcsa"]),
     ("justify-content", "space-between", ["jcsb"]),
     ("justify-content", "space-evenly", ["jcse"]),
