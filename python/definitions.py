@@ -136,17 +136,17 @@ properties = [
 
     ("list-style", ["lstyle"], None, ["none", "square", "disc", "inside", "outside", "inherit", "initial", "unset", "decimal", "georgian"]),
 
-    {"grid-template", ["gt"], None, None},
-    {"grid-template-columns", ["gtc", "gtcs"], None, None},
-    {"grid-template-rows", ["gtr",  "gtrs"], None, None},
-    {"grid-template-areas", ["gta",  "gtas"], None, None},
-    {"grid-column-gap", ["gcg"], "px", None},
-    {"grid-row-gap", ["grg"], "px", None},
-    {"column-gap", ["cg"], "px", None},
-    {"row-gap", ["rg"], "px", None},
-    {"grid-gap", ["gg"], "px", None},
-    {"justify-items", ["ji"], None, ["start", "end", "center", "stretch"]},
-    {"align-content", ["ac"], None, ["start", "end", "center", "stretch"]},
+    ("grid-template", ["gt"], None, None),
+    ("grid-template-columns", ["gtc", "gtcs"], None, None),
+    ("grid-template-rows", ["gtr",  "gtrs"], None, None),
+    ("grid-template-areas", ["gta",  "gtas"], None, None),
+    ("grid-column-gap", ["gcg"], "px", None),
+    ("grid-row-gap", ["grg"], "px", None),
+    ("column-gap", ["cg"], "px", None),
+    ("row-gap", ["rg"], "px", None),
+    ("grid-gap", ["gg"], "px", None),
+    ("justify-items", ["ji"], None, ["start", "end", "center", "stretch"]),
+    ("align-content", ["ac"], None, ["start", "end", "center", "stretch"]),
 
 
 ]
