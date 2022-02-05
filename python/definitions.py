@@ -295,10 +295,10 @@ statements = [
 
     ("flex", "auto", ["flauto"]),
 
-    ("align-items", "start", ["aistart"]),
-    ("align-items", "end", ["aiend"]),
-    ("align-items", "flex-start", ["aiflexstart"]),
-    ("align-items", "flex-end", ["aiflexend"]),
+    ("align-items", "start", ["ais"]),
+    ("align-items", "end", ["aie"]),
+    ("align-items", "flex-start", ["aifs"]),
+    ("align-items", "flex-end", ["aife"]),
     ("align-items", "center", ["aicenter"]),
     ("align-items", "stretch", ["aistretch"]),
 
