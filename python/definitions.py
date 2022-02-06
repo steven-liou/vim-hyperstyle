@@ -145,6 +145,7 @@ properties = [
     ("column-gap", ["cg"], "rem", None),
     ("row-gap", ["rg"], "rem", None),
     ("grid-gap", ["gg"], "rem", None),
+    ("gap",  [], "rem",  None),
     ("justify-items", ["ji"], None, ["start", "end", "center", "stretch"]),
     ("align-content", ["ac"], None, ["start", "end", "center", "stretch"]),
 
