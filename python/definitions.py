@@ -192,6 +192,7 @@ statements = [
     ("float", "none", ["fnone", "flnone", "flonone"]),
 
 
+    ("font-family", "inherit", ["ffi"]),
     ("font-weight", "normal", ["fwnormal"]),
     ("font-weight", "bold", ["fwbold", "bold"]),
     ("font-style", "italic", ["fsitalic", "italic"]),
