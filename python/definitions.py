@@ -354,16 +354,18 @@ statements = [
     ("list-style", "square", ["lssquare"]),
     ("list-style", "circle", ["lscircle"]),
     ("list-style", "decimal", ["lsdecimal"]),
+    ("list-style", "disc", ["lsdisc"]),
     ("list-style", "georgian", ["lsgeorgian"]),
-    ("list-style", "trad-chinese-informal", ["lstci"]),
+    ("list-style", "trad-chinese-informal", ["lsm"]),
     ("list-style", "kannada", ["lskannada"]),
 
     ("list-style-type", "none", ["lstnone"]),
     ("list-style-type", "square", ["lstsquare"]),
     ("list-style-type", "circle", ["lstcircle"]),
     ("list-style-type", "decimal", ["lstdecimal"]),
+    ("list-style-type", "disc", ["lstdisc"]),
     ("list-style-type", "georgian", ["lstgeorgian"]),
-    ("list-style-type", "trad-chinese-informal", ["lsttci"]),
+    ("list-style-type", "trad-chinese-informal", ["lstm"]),
     ("list-style-type", "kannada", ["lstkannada"]),
 ]
 
