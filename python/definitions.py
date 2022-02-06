@@ -56,7 +56,7 @@ properties = [
     ("overflow-y", ["oy"], None, ["visible", "scroll", "hidden", "auto", "inherit"]),
 
     ("font", [], None, None),
-    ("font-size", ["fsize", "fosize"], "em", None),
+    ("font-size", ["fsize", "fosize"], "rem", None),
     ("font-style", ["fstyle", "fostyle"], None, ["italic","normal","inherit"]),
     ("font-weight", ["fweight", "foweight"], None, ["100","200","300","400","500","600","700","800","900","bold","normal","inherit"]),
     ("font-variant", ["fvariant", "fovariant"], None, None),
