@@ -189,7 +189,7 @@ statements = [
     ("font-family", "inherit", ["ffi"]),
     ("font-weight", "normal", ["fwnormal"]),
     ("font-weight", "bold", ["fwbold", "bold"]),
-    ("font-weight", "bolder", ["fwbolder", "bolder"]),
+    ("font-weight", "bolder", ["bolder"]),
     ("font-weight", "lighter", ["fwlighter", "lighter"]),
     ("font-style", "italic", ["fsitalic", "italic"]),
     ("font-style", "normal", ["fsnormal", "normal"]),
@@ -309,7 +309,7 @@ statements = [
     ("align-self", "start", ["ass"]),
     ("align-self", "end", ["ase"]),
     ("align-self", "flex-start", ["asfs"]),
-    ("align-self", "flex-end", ["ase"]),
+    ("align-self", "flex-end", ["asfe"]),
     ("align-self", "center", ["asc"]),
     ("align-self", "stretch", ["asx"]),
 
@@ -351,7 +351,20 @@ statements = [
     ("table-layout", "auto", ["tlauto"]),
 
     ("list-style", "none", ["lsnone"]),
+    ("list-style", "square", ["lssquare"]),
+    ("list-style", "circle", ["lscircle"]),
+    ("list-style", "decimal", ["lsdecimal"]),
+    ("list-style", "georgian", ["lsgeorgian"]),
+    ("list-style", "trad-chinese-informal", ["lstci"]),
+    ("list-style", "kannada", ["lskannada"]),
+
     ("list-style-type", "none", ["lstnone"]),
+    ("list-style-type", "square", ["lstsquare"]),
+    ("list-style-type", "circle", ["lstcircle"]),
+    ("list-style-type", "decimal", ["lstdecimal"]),
+    ("list-style-type", "georgian", ["lstgeorgian"]),
+    ("list-style-type", "trad-chinese-informal", ["lsttci"]),
+    ("list-style-type", "kannada", ["lstkannada"]),
 ]
 
 definitions = { "properties": properties, "statements": statements }
