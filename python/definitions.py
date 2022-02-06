@@ -189,8 +189,11 @@ statements = [
     ("font-family", "inherit", ["ffi"]),
     ("font-weight", "normal", ["fwnormal"]),
     ("font-weight", "bold", ["fwbold", "bold"]),
+    ("font-weight", "bolder", ["fwbolder", "bolder"]),
+    ("font-weight", "lighter", ["fwlighter", "lighter"]),
     ("font-style", "italic", ["fsitalic", "italic"]),
-    ("font-style", "normal", ["fnormal"]),
+    ("font-style", "normal", ["fsnormal", "normal"]),
+    ("font-style", "oblique", ["fsoblique", "oblique"]),
 
     ("border", "0", ["b0"]),
     ("padding", "0", ["p0", "po"]),
