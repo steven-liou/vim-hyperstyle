@@ -178,14 +178,7 @@ statements = [
     ("display", "grid", ["dgrid", "grid"]),
     ("display", "none", ["dnone"]),
 
-    ("align-content", "start", ["acstart"]),
-    ("align-content", "end", ["acend"]),
-    ("align-content", "center", ["accenter"]),
-    ("align-content", "stretch", ["acx"]),
-    ("justify-items", "start", ["jistart"]),
-    ("justify-items", "end", ["jiend"]),
-    ("justify-items", "center", ["jicenter"]),
-    ("justify-items", "stretch", ["jix"]),
+
 
     ("float", "left", ["fleft", "flleft", "floleft"]),
     ("float", "right", ["fright", "flright", "floright"]),
@@ -304,6 +297,23 @@ statements = [
     ("align-items", "flex-end", ["aife"]),
     ("align-items", "center", ["aicenter"]),
     ("align-items", "stretch", ["aistretch", "aix"]),
+
+    ("align-self", "start", ["ass"]),
+    ("align-self", "end", ["ase"]),
+    ("align-self", "flex-start", ["asfs"]),
+    ("align-self", "flex-end", ["ase"]),
+    ("align-self", "center", ["asc"]),
+    ("align-self", "stretch", ["asx"]),
+
+    ("align-content", "start", ["acstart"]),
+    ("align-content", "end", ["acend"]),
+    ("align-content", "center", ["accenter"]),
+    ("align-content", "stretch", ["acx"]),
+
+    ("justify-items", "start", ["jistart"]),
+    ("justify-items", "end", ["jiend"]),
+    ("justify-items", "center", ["jicenter"]),
+    ("justify-items", "stretch", ["jix"]),
 
     ("text-overflow", "ellipsis", ["elip", "ellipsis", "toellipsis"]),
 
